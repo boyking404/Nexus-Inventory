@@ -45,6 +45,16 @@
 .hero-image {
   width: 50%;
 }
+.heroimg{
+  width: 40vw;
+  max-width: 463px;
+}
+.logoimg{
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .btn{
   background-color: green;
   backdrop-filter: blur(5px);
@@ -53,8 +63,8 @@
   border-radius: 5px;
 }
 .btn2{
-  background-color: #ff6601;
-  color: green;
+  background-color: #017cff;
+  color: rgb(255, 255, 255);
 }
 .numText{
   font-size: 1.5rem;
@@ -79,5 +89,17 @@
     &img {
       width: 100%;
     }
+  }
+  .logoimg{
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroimg{
+    width: 80vw;
+    display: flex;
+    justify-content: end;
+  align-items: end;
   }
 }

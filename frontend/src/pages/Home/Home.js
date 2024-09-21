@@ -11,7 +11,7 @@ const Home = () => {
     <div className="home">
       <nav className="container --flex-between ">
         <div className="logo">
-        <img width={300} src={BharatSeImg} alt="Inventory" />
+        <img className="logoimg" src={BharatSeImg} alt="Inventory" />
         </div>
 
         <ul className="home-links">
@@ -23,7 +23,7 @@ const Home = () => {
           <ShowOnLogout>
             <li>
               <button className="--btn --btn-primary">
-                <Link to="/login">Login</Link>
+                <Link to="/login" style={{ color: 'white'}}>Login</Link>
               </button>
             </li>
           </ShowOnLogout>
@@ -57,7 +57,7 @@ const Home = () => {
         </div>
 
         <div className="hero-image">
-          <img src={heroImg} alt="Inventory" />
+          <img className="heroimg" src={heroImg} alt="Inventory" />
         </div>
       </section>
     </div>
