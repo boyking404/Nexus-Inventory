@@ -39,7 +39,7 @@ const Home = () => {
       {/* HERO SECTION */}
       <section className="container hero">
         <div className="hero-text">
-        <h1 style={{ color: '#ff6601' }}>Welcome to Bharat<span style={{ color: 'green' }}>Se</span></h1>
+        <h1 style={{ color: '#ff6601' }}>Welcome to Bharat<span style={{ color: 'green' }}>iya</span></h1>
           <h2> Transportation {"&"} Logistics Management system</h2>
           <p>
           A Transport & Logistics System is designed to control and manage the movement of goods across warehouses, distribution centers, and delivery routes in real-time, integrated to make it easier to scale and grow your business.
